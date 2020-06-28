@@ -1,0 +1,172 @@
+INFO main org.example.Task.RetryTask - 收到请求参数:1
+INFO main org.example.Task.RetryTask - 随机生成的数:1
+INFO main org.example.Task.RetryTask - 为1,返回true.
+DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=0
+INFO main org.example.Task.RetryTask - 收到请求参数:abc
+INFO main org.example.Task.RetryTask - 随机生成的数:4
+INFO main org.example.Task.RetryTask - 大于2,抛出自定义异常.
+DEBUG main org.springframework.retry.support.RetryTemplate - Checking for rethrow: count=1
+DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=1
+INFO main org.example.Task.RetryTask - 收到请求参数:abc
+INFO main org.example.Task.RetryTask - 随机生成的数:8
+INFO main org.example.Task.RetryTask - 大于2,抛出自定义异常.
+DEBUG main org.springframework.retry.support.RetryTemplate - Checking for rethrow: count=2
+DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=2
+INFO main org.example.Task.RetryTask - 收到请求参数:abc
+INFO main org.example.Task.RetryTask - 随机生成的数:6
+INFO main org.example.Task.RetryTask - 大于2,抛出自定义异常.
+DEBUG main org.springframework.retry.support.RetryTemplate - Checking for rethrow: count=3
+DEBUG main org.springframework.retry.support.RetryTemplate - Retry failed last attempt: count=3
+INFO main org.example.SpringRetryTest - 已达到最大重试次数或抛出了不重试的异常~~~
+INFO main org.example.SpringRetryTest - 执行结果:false
+DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=0
+INFO main org.example.Task.RetryTask - 收到请求参数:abc
+INFO main org.example.Task.RetryTask - 随机生成的数:7
+INFO main org.example.Task.RetryTask - 大于2,抛出自定义异常.
+DEBUG main org.springframework.retry.support.RetryTemplate - Checking for rethrow: count=1
+DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=1
+INFO main org.example.Task.RetryTask - 收到请求参数:abc
+INFO main org.example.Task.RetryTask - 随机生成的数:2
+INFO main org.example.Task.RetryTask - 为2,返回false.
+INFO main org.example.SpringRetryTest - 调用的结果:false
+INFO main org.example.SpringRetryTest - 执行结果:false
+DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=0
+INFO main org.example.Task.RetryTask - 收到请求参数:abc
+INFO main org.example.Task.RetryTask - 随机生成的数:6
+INFO main org.example.Task.RetryTask - 大于2,抛出自定义异常.
+DEBUG main org.springframework.retry.support.RetryTemplate - Checking for rethrow: count=1
+DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=1
+INFO main org.example.Task.RetryTask - 收到请求参数:abc
+INFO main org.example.Task.RetryTask - 随机生成的数:3
+INFO main org.example.Task.RetryTask - 大于2,抛出自定义异常.
+DEBUG main org.springframework.retry.support.RetryTemplate - Checking for rethrow: count=2
+DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=2
+INFO main org.example.Task.RetryTask - 收到请求参数:abc
+INFO main org.example.Task.RetryTask - 随机生成的数:10
+INFO main org.example.Task.RetryTask - 大于2,抛出自定义异常.
+DEBUG main org.springframework.retry.support.RetryTemplate - Checking for rethrow: count=3
+DEBUG main org.springframework.retry.support.RetryTemplate - Retry failed last attempt: count=3
+INFO main org.example.SpringRetryTest - 已达到最大重试次数或抛出了不重试的异常~~~
+INFO main org.example.SpringRetryTest - 执行结果:false
+DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=0
+INFO main org.example.Task.RetryTask - 收到请求参数:abc
+INFO main org.example.Task.RetryTask - 随机生成的数:0
+INFO main org.example.Task.RetryTask - 为0,抛出参数异常.
+DEBUG main org.springframework.retry.support.RetryTemplate - Checking for rethrow: count=1
+DEBUG main org.springframework.retry.support.RetryTemplate - Retry failed last attempt: count=1
+INFO main org.example.SpringRetryTest - 已达到最大重试次数或抛出了不重试的异常~~~
+INFO main org.example.SpringRetryTest - 执行结果:false
+DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=0
+INFO main org.example.Task.RetryTask - 收到请求参数:abc
+INFO main org.example.Task.RetryTask - 随机生成的数:7
+INFO main org.example.Task.RetryTask - 大于2,抛出自定义异常.
+DEBUG main org.springframework.retry.support.RetryTemplate - Checking for rethrow: count=1
+DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=1
+INFO main org.example.Task.RetryTask - 收到请求参数:abc
+INFO main org.example.Task.RetryTask - 随机生成的数:8
+INFO main org.example.Task.RetryTask - 大于2,抛出自定义异常.
+DEBUG main org.springframework.retry.support.RetryTemplate - Checking for rethrow: count=2
+DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=2
+INFO main org.example.Task.RetryTask - 收到请求参数:abc
+INFO main org.example.Task.RetryTask - 随机生成的数:1
+INFO main org.example.Task.RetryTask - 为1,返回true.
+INFO main org.example.SpringRetryTest - 调用的结果:true
+INFO main org.example.SpringRetryTest - 执行结果:true
+DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=0
+INFO main org.example.Task.RetryTask - 收到请求参数:abc
+INFO main org.example.Task.RetryTask - 随机生成的数:8
+INFO main org.example.Task.RetryTask - 大于2,抛出自定义异常.
+DEBUG main org.springframework.retry.support.RetryTemplate - Checking for rethrow: count=1
+DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=1
+INFO main org.example.Task.RetryTask - 收到请求参数:abc
+INFO main org.example.Task.RetryTask - 随机生成的数:2
+INFO main org.example.Task.RetryTask - 为2,返回false.
+INFO main org.example.SpringRetryTest - 调用的结果:false
+INFO main org.example.SpringRetryTest - 执行结果:false
+DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=0
+INFO main org.example.Task.RetryTask - 收到请求参数:abc
+INFO main org.example.Task.RetryTask - 随机生成的数:7
+INFO main org.example.Task.RetryTask - 大于2,抛出自定义异常.
+DEBUG main org.springframework.retry.support.RetryTemplate - Checking for rethrow: count=1
+DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=1
+INFO main org.example.Task.RetryTask - 收到请求参数:abc
+INFO main org.example.Task.RetryTask - 随机生成的数:8
+INFO main org.example.Task.RetryTask - 大于2,抛出自定义异常.
+DEBUG main org.springframework.retry.support.RetryTemplate - Checking for rethrow: count=2
+DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=2
+INFO main org.example.Task.RetryTask - 收到请求参数:abc
+INFO main org.example.Task.RetryTask - 随机生成的数:7
+INFO main org.example.Task.RetryTask - 大于2,抛出自定义异常.
+DEBUG main org.springframework.retry.support.RetryTemplate - Checking for rethrow: count=3
+DEBUG main org.springframework.retry.support.RetryTemplate - Retry failed last attempt: count=3
+INFO main org.example.SpringRetryTest - 已达到最大重试次数或抛出了不重试的异常~~~
+INFO main org.example.SpringRetryTest - 执行结果:true
+[DEBUG]20/06/08 01:23:32:912DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=0
+[INFO]20/06/08 01:23:32:918INFO main org.example.Task.RetryTask - 收到请求参数:abc
+[INFO]20/06/08 01:23:32:920INFO main org.example.Task.RetryTask - 随机生成的数:0
+[INFO]20/06/08 01:23:32:921INFO main org.example.Task.RetryTask - 为0,抛出参数异常.
+[DEBUG]20/06/08 01:23:32:922DEBUG main org.springframework.retry.support.RetryTemplate - Checking for rethrow: count=1
+[DEBUG]20/06/08 01:23:32:922DEBUG main org.springframework.retry.support.RetryTemplate - Retry failed last attempt: count=1
+[INFO]20/06/08 01:23:32:922INFO main org.example.SpringRetryTest - 已达到最大重试次数或抛出了不重试的异常~~~
+[INFO]20/06/08 01:23:32:922INFO main org.example.SpringRetryTest - 执行结果:true
+[DEBUG]20/06/08 01:23:42:245 DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=0
+[INFO]20/06/08 01:23:42:251 INFO main org.example.Task.RetryTask - 收到请求参数:abc
+[INFO]20/06/08 01:23:42:253 INFO main org.example.Task.RetryTask - 随机生成的数:3
+[INFO]20/06/08 01:23:42:254 INFO main org.example.Task.RetryTask - 大于2,抛出自定义异常.
+[DEBUG]20/06/08 01:23:45:267 DEBUG main org.springframework.retry.support.RetryTemplate - Checking for rethrow: count=1
+[DEBUG]20/06/08 01:23:45:267 DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=1
+[INFO]20/06/08 01:23:45:267 INFO main org.example.Task.RetryTask - 收到请求参数:abc
+[INFO]20/06/08 01:23:45:267 INFO main org.example.Task.RetryTask - 随机生成的数:2
+[INFO]20/06/08 01:23:45:267 INFO main org.example.Task.RetryTask - 为2,返回false.
+[INFO]20/06/08 01:23:45:267 INFO main org.example.SpringRetryTest - 调用的结果:false
+[INFO]20/06/08 01:23:45:267 INFO main org.example.SpringRetryTest - 执行结果:false
+[DEBUG]20/06/08 01:23:56:489 Retry: count=0
+[INFO]20/06/08 01:23:56:494 收到请求参数:abc
+[INFO]20/06/08 01:23:56:496 随机生成的数:0
+[INFO]20/06/08 01:23:56:498 为0,抛出参数异常.
+[DEBUG]20/06/08 01:23:56:498 Checking for rethrow: count=1
+[DEBUG]20/06/08 01:23:56:498 Retry failed last attempt: count=1
+[INFO]20/06/08 01:23:56:498 已达到最大重试次数或抛出了不重试的异常~~~
+[INFO]20/06/08 01:23:56:498 执行结果:true
+%Time DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=0
+%Time INFO main org.example.Task.RetryTask - 收到请求参数:abc
+%Time INFO main org.example.Task.RetryTask - 随机生成的数:0
+%Time INFO main org.example.Task.RetryTask - 为0,抛出参数异常.
+%Time DEBUG main org.springframework.retry.support.RetryTemplate - Checking for rethrow: count=1
+%Time DEBUG main org.springframework.retry.support.RetryTemplate - Retry failed last attempt: count=1
+%Time INFO main org.example.SpringRetryTest - 已达到最大重试次数或抛出了不重试的异常~~~
+%Time INFO main org.example.SpringRetryTest - 执行结果:true
+%Time DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=0
+%Time INFO main org.example.Task.RetryTask - 收到请求参数:abc
+%Time INFO main org.example.Task.RetryTask - 随机生成的数:7
+%Time INFO main org.example.Task.RetryTask - 大于2,抛出自定义异常.
+%Time DEBUG main org.springframework.retry.support.RetryTemplate - Checking for rethrow: count=1
+%Time DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=1
+%Time INFO main org.example.Task.RetryTask - 收到请求参数:abc
+%Time INFO main org.example.Task.RetryTask - 随机生成的数:5
+%Time INFO main org.example.Task.RetryTask - 大于2,抛出自定义异常.
+%Time DEBUG main org.springframework.retry.support.RetryTemplate - Checking for rethrow: count=2
+%Time DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=2
+%Time INFO main org.example.Task.RetryTask - 收到请求参数:abc
+%Time INFO main org.example.Task.RetryTask - 随机生成的数:1
+%Time INFO main org.example.Task.RetryTask - 为1,返回true.
+%Time INFO main org.example.SpringRetryTest - 调用的结果:true
+%Time INFO main org.example.SpringRetryTest - 执行结果:true
+%Time DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=0
+%Time INFO main org.example.Task.RetryTask - 收到请求参数:abc
+%Time INFO main org.example.Task.RetryTask - 随机生成的数:5
+%Time INFO main org.example.Task.RetryTask - 大于2,抛出自定义异常.
+%Time DEBUG main org.springframework.retry.support.RetryTemplate - Checking for rethrow: count=1
+%Time DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=1
+%Time INFO main org.example.Task.RetryTask - 收到请求参数:abc
+%Time INFO main org.example.Task.RetryTask - 随机生成的数:5
+%Time INFO main org.example.Task.RetryTask - 大于2,抛出自定义异常.
+%Time DEBUG main org.springframework.retry.support.RetryTemplate - Checking for rethrow: count=2
+%Time DEBUG main org.springframework.retry.support.RetryTemplate - Retry: count=2
+%Time INFO main org.example.Task.RetryTask - 收到请求参数:abc
+%Time INFO main org.example.Task.RetryTask - 随机生成的数:10
+%Time INFO main org.example.Task.RetryTask - 大于2,抛出自定义异常.
+%Time DEBUG main org.springframework.retry.support.RetryTemplate - Checking for rethrow: count=3
+%Time DEBUG main org.springframework.retry.support.RetryTemplate - Retry failed last attempt: count=3
+%Time INFO main org.example.SpringRetryTest - 已达到最大重试次数或抛出了不重试的异常~~~
+%Time INFO main org.example.SpringRetryTest - 执行结果:true
